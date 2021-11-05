@@ -18,10 +18,10 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float in = 140;
-        float expectedEur = 2F;
-        float expectedDollar = 2.3333333F;
-        System.out.println("140 rubles are 2 euros. Test result : " + checkResult(Converter.rubleToEuro(in), expectedEur));
-        System.out.println("140 rubles are 2.3 dollars. Test result : " + checkResult(Converter.rubleToDollar(in), expectedDollar));
+        float in = 420;
+        float expectedEur = 6;
+        float expectedDollar = 7;
+        System.out.println("420 rubles are 6 euros. Test result : " + checkResult(Converter.rubleToEuro(in), expectedEur));
+        System.out.println("420 rubles are 7 dollars. Test result : " + checkResult(Converter.rubleToDollar(in), expectedDollar));
     }
 }
