@@ -14,11 +14,12 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFromTwoToTwentyThenTOneHundredAndTen() {
+    public void whenSumEvenNumbersFromTwoToTwentyThenOneHundredAndTen() {
         int start = 2;
         int finish = 20;
         int result = Counter.sumByEven(start, finish);
         int expected = 110;
         Assert.assertEquals(expected, result);
     }
+
 }
