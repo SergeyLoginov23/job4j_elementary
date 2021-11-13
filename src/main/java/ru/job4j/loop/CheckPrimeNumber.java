@@ -6,7 +6,6 @@ public class CheckPrimeNumber {
         for (int index = 2; index <= number / 2; index++) {
             if (number % index == 0) {
                 prime = false;
-                System.out.println(prime);
                 break;
             }
         }
