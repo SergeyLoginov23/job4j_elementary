@@ -19,4 +19,12 @@ public class FactorialTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenCalculateFactorialForTenThenALot() {
+        int n = 10;
+        int result = Factorial.calc(n);
+        int expected = 3628800;
+        Assert.assertEquals(expected, result);
+    }
 }
