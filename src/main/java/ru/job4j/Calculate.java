@@ -1,6 +1,6 @@
 package ru.job4j;
 
-public class calculate {
+public class Calculate {
     public static void main(String[] args) {
         short age = 18;
         System.out.println(age);
@@ -12,8 +12,8 @@ public class calculate {
         System.out.println(brickNumber);
         double bacteriumNumber = 1.0E7;
         System.out.println(bacteriumNumber);
-        double SpaceDistance = 1.0E25;
-        System.out.println(SpaceDistance);
+        double spaceDistance = 1.0E25;
+        System.out.println(spaceDistance);
         boolean workPermission = true;
         System.out.println(workPermission);
         int fileSize = 350430123;
