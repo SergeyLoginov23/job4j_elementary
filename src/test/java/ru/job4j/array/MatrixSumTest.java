@@ -35,4 +35,16 @@ public class MatrixSumTest {
         int expected = 7;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenNew() {
+        int[][] array = {
+                {1, 2, 1},
+                {1, 2, 0},
+                {1, 1, 3, 4}
+        };
+        int result = MatrixSum.sum(array);
+        int expected = 16;
+        Assert.assertEquals(expected, result);
+    }
 }
