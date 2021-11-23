@@ -29,19 +29,6 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasMonoHorizontalAtLine3() {
-        char[][] input = {
-                {' ', ' ', ' '},
-                {'X', ' ', ' '},
-                {' ', ' ', ' ', ' '},
-                {'X', 'X'}
-        };
-        int row = 3;
-        boolean result = MatrixCheck.monoHorizontal(input, row);
-        Assert.assertTrue(result);
-    }
-
-    @Test
     public void whenHasMonoVertical() {
         char[][] input = {
                 {' ', ' ', 'X'},
