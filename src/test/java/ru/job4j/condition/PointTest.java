@@ -43,7 +43,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenM1M1to33then5dot66() {
+    public void when1Mto33then5dot66() {
         double expected = 5.66;
         Point a = new Point(-1, -1);
         Point b = new Point(3, 3);
@@ -51,4 +51,21 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
+    public void when111to333then3dot46() {
+        double expected = 3.46;
+        Point a = new Point(1, 1, 1);
+        Point b = new Point(3, 3, 3);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when212to454then4dot89() {
+        double expected = 4.89;
+        Point a = new Point(2, 1, 2);
+        Point b = new Point(4, 5, 4);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
